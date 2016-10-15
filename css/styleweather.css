@@ -1,9 +1,16 @@
+html *{
+    box-sizing: border-box;
+}
+
+*before, *after{
+    box-sizing: border-box;
+}
+
 header {
     background-color: white;
     font-size: x-large;
     color: black;
     font-family: serif;
-        
 }
 
 body {
@@ -76,4 +83,16 @@ ul {
 
 footer {
     margin-top: 10%;
+}
+
+.high {
+    font-size: x-large;
+    font-family: sans-serif;
+    color: black;
+}
+
+.low {
+    font-size: x-large;
+    font-family: sans-serif;
+    color: black;
 }
