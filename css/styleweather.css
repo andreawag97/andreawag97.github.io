@@ -1,12 +1,15 @@
+.search {
+    text-align: right;
+    width: 100%;
+    display: block;
+    
+} 
+
 header {
     background-color: white;
     font-size: x-large;
     color: black;
     font-family: serif;
-}
-
-body {
-    background-color: white;
 }
 
 nav ul {
@@ -23,58 +26,25 @@ li {
     min-width: 28%;
     font-family: sans-serif;
     display: inline-block;
-    font-size: large;
-       
+    font-size: large;      
 }
 
 figure {
     margin: 0;
-    
 }
 
 #banner {
     max-width: 80%;
-    padding: 10%;
-    
+    padding: 10%;  
+}
+
+body {
+    background-color: white;
 }
 
 h2, h3 {
     font-size: xx-large;
     font-family: serif;
-}
-
-#creds>li {
-    font-size: x-small;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    
-}
-
-h4 {
-    margin: 0px;
-}
-
-p {
-    font-size: x-large;
-}
-
-.search {
-    text-align: right;
-    width: 100%;
-    display: block;
-    
-} 
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  
-}
-
-footer {
-    margin-top: 10%;
 }
 
 .high {
@@ -88,3 +58,29 @@ footer {
     font-family: sans-serif;
     color: black;
 }
+
+p {
+    font-size: x-large;
+}
+
+#creds>li {
+    font-size: x-small;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;  
+}
+
+h4 {
+    margin: 0px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;  
+}
+
+footer {
+    margin-top: 10%;
+}
+
