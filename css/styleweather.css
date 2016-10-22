@@ -34,7 +34,7 @@ figure {
 }
 
 #banner {
-    max-width: 80%;
+  max-width: 80%;
     padding: 10%;  
 }
 
@@ -83,4 +83,25 @@ ul {
 footer {
     margin-top: 10%;
 }
+
+
+@media only screen and (min-width: 767px) {
+    
+    
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    #banner{max-width: 100%}
+    #banner{padding: 5%}
+    #banner{margin-left: 10%}
+    #banner{margin-right: 10%}
+    #banner{height: auto}
+    #banner{}
+    .hourly{}
+    
+    
+    
+}
+    
 
