@@ -1,17 +1,60 @@
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 767px) {
+ #wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+}
+
+@media only screen and (min-width: 1024px) {
+    #wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .search {
     text-align: right;
     width: 100%;
     display: block;
     
 } 
+*/
 
+/*
 header {
     background-color: white;
     font-size: x-large;
     color: black;
     font-family: serif;
 }
+*/
 
+/*
 nav ul {
     display: block;
     list-style: none;
@@ -19,7 +62,9 @@ nav ul {
     border-style: solid;
     border-width: medium;
 }
+*/
 
+/*
 li {
     margin: 0px;
     text-align: center;
@@ -28,68 +73,94 @@ li {
     display: inline-block;
     font-size: large;      
 }
+*/
 
+/*
 figure {
     margin: 0;
 }
+*/
 
+/*
 #banner {
   max-width: 80%;
     padding: 10%;  
 }
+*/
 
+/*
 body {
     background-color: white;
 }
+*/
 
+/*
 h2, h3 {
     font-size: xx-large;
     font-family: serif;
 }
+*/
 
+/*
 .high {
     font-size: x-large;
     font-family: sans-serif;
     color: black;
 }
+*/
 
+/*
 .low {
     font-size: x-large;
     font-family: sans-serif;
     color: black;
 }
+*/
 
+/*
 p {
     font-size: x-large;
 }
+*/
 
+/*
 .hourly
 {
     display: none;
 }
+*/
 
+/*
 #creds>li {
     font-size: x-small;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;  
 }
+*/
 
+/*
 h4 {
     margin: 0px;
 }
+*/
 
+/*
 ul {
     margin: 0;
     padding: 0;
     list-style: none;  
 }
+*/
 
+/*
 footer {
     margin-top: 10%;
 }
+*/
 
 
+/*
 @media only screen and (min-width: 767px) {
     #banner{max-width: 100%}
     #banner{padding: 5%}
@@ -100,7 +171,9 @@ footer {
     .hourly{display: inline-block}
     
 }
+*/
 
+/*
 @media only screen and (min-width: 1024px) {
     #banner{max-width: 100%}
     #banner{padding: 5%}
@@ -111,5 +184,6 @@ footer {
     .hourly{display: inline-block}
     
 }
+*/
     
 
