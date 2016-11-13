@@ -49,7 +49,9 @@ h1 {
 
 /*	Background Images - use with Small screens */
 
-.page-header {}
+.page-header {
+    background-image: ;
+}
 
 
 /*******************************
